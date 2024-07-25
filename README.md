@@ -15,6 +15,10 @@ See [faq](https://github.com/gokcehan/lf/wiki/FAQ) for more information and [tut
 ![multicol-screenshot](http://i.imgur.com/DaTUenu.png)
 ![singlecol-screenshot](http://i.imgur.com/p95xzUj.png)
 
+## Changes
+
+Removed the symlink icon, in favour of the proper icon for that entry.
+
 ## Features
 
 - Cross-platform (Linux, macOS, BSDs, Windows)

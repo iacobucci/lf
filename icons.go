@@ -143,8 +143,8 @@ func (im iconMap) get(f *file) iconDef {
 	var key string
 
 	switch {
-	case f.linkState == working && !im.useLinkTarget:
-		key = "ln"
+	// case f.linkState == working && !im.useLinkTarget:
+	// 	key = "ln"
 	case f.linkState == broken:
 		key = "or"
 	case f.IsDir() && f.Mode()&os.ModeSticky != 0 && f.Mode()&0o002 != 0:
